@@ -1,10 +1,9 @@
-/*  your css code here. If applicable */
-#line {
-	top: 50%;
-	left: 50%;
-	height: 2px;
-	width: 200px;
-	color: black;
-	position: absolute;
-	transform-origin: 0% 50%;
-}
+ #line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    background-color: black;
+    width: 200px;
+    height: 2px;
+  }
