@@ -7,7 +7,8 @@ const line = document.getElementById('line');
   function rotateLine() {
     angle += 2; // Increase angle by 2 degrees
     line.style.transform = ` rotate(${angle}deg)`;
-    requestAnimationFrame(rotateLine);
+    // 
+	  setTimeout(rotateLine, 20);
   }
 
   // Start rotating the line
